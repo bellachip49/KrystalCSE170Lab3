@@ -34,3 +34,15 @@ form {
     padding: 20px 5%;
 }
 
+/* --- Custom replacements for Bootstrap spacing classes --- */
+.chat-form {
+    display: flex;              /* replaces d-flex */
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5%;           /* replaces ps-4 */
+    gap: 10px;                  /* replaces me-2 */
+}
+
+.message-input {
+    width: 75%;                 /* replaces w-75 */
+}
