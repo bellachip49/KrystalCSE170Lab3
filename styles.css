@@ -44,3 +44,9 @@ p {
     margin: 0 auto;
     padding: 25px 5%;
 }
+
+button {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+}
